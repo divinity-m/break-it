@@ -3,7 +3,7 @@ console.log("canvas");
 let cnv = document.getElementById("game");
 let ctx = cnv.getContext("2d");
 
-const GAME_WIDTH = 1000, GAME_HEIGHT = 1000;
+const GAME_WIDTH = 900, GAME_HEIGHT = 900;
 [cnv.width, cnv.height] = [GAME_WIDTH, GAME_HEIGHT];
 
 requestAnimationFrame(drawBreakIt);
