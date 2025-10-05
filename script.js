@@ -1,5 +1,5 @@
 // SCRIPT.JS
-console.log("finnaly a direction");
+console.log("finally a direction");
 let cnv = document.getElementById("game");
 let ctx = cnv.getContext("2d");
 
